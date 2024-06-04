@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0604study</title>
+    <script src="jQuery/jquery.js"></script>
+    <script src="0604.js"></script>
+    <link rel="stylesheet" href="0604.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div class="logo"><img src="Header/logo.png" /></div>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#">소장처별</a>
+              <ul class="subme">
+                <li><a href="#">한국</a></li>
+                <li><a href="#">프랑스</a></li>
+                <li><a href="#">이탈리아</a></li>
+                <li><a href="#">독일</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">장르별</a>
+              <ul class="subme">
+                <li><a href="#">회화</a></li>
+                <li><a href="#">판화</a></li>
+                <li><a href="#">공예/고대유물</a></li>
+                <li><a href="#">그 외</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">테마별</a>
+              <ul class="subme">
+                <li><a href="#">초상화/인물</a></li>
+                <li><a href="#">종교</a></li>
+                <li><a href="#">신화/문학</a></li>
+                <li><a href="#">일상/스포츠</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">시대별</a>
+              <ul class="subme">
+                <li><a href="#">1900년이전</a></li>
+                <li><a href="#">1900년대</a></li>
+                <li><a href="#">현대</a></li>
+                <li><a href="#">그 외</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="slider">
+        <div class="slide">
+          <div class="sli">
+            <img src="Slide/전시회1.jpg" />
+            <p class="firtxt"></p>
+          </div>
+          <div class="sli">
+            <img src="Slide/전시회2.jpg" />
+            <p class="sectxt"></p>
+          </div>
+          <div class="sli">
+            <img src="Slide/전시회3.jpg" />
+            <p class="thtxt"></p>
+          </div>
+        </div>
+      </div>
+      <div id="contents">
+        <div class="contl">
+          <h2>공지사항</h2>
+          <table>
+            <tr>
+              <th>제목</th>
+              <th>날짜</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="#" class="popop"
+                  >2022 KAFA 대한민국 미술축전 '국제아트페어'</a
+                >
+              </td>
+              <td>2022-08-22</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">'당산원치과의원' 서대표원장과 업무협약 </a>
+              </td>
+              <td>2022-08-15</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">'2022년 비엔날레' 청년작가 특별전 참관 </a>
+              </td>
+              <td>2022-07-20</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">강원도 산불 피해지역 미술인(회원) 돕기</a>
+              </td>
+              <td>2022-07-16</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">공공대출권 도입촉구를 위한 서명운동</a>
+              </td>
+              <td>2022-07-10</td>
+            </tr>
+          </table>
+        </div>
+        <div class="contc">
+          <h2>갤러리</h2>
+          <div class="gall">
+            <img src="Contents/갤러리/gallery01.jpg" />
+            <img src="Contents/갤러리/gallery02.jpg" />
+            <img src="Contents/갤러리/gallery03.jpg" />
+          </div>
+        </div>
+        <div class="contr">
+          <div class="img">
+            <img src="Contents/배너/exhibition.jpg" />
+            <p class="name1">'현대미술의 거장'</p>
+            <p class="name">데이비드 호크니展</p>
+            <p class="btn"><a href="#">더보기</a></p>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footl">
+          <div class="footimg">
+            <img src="Header/logo.png" />
+          </div>
+        </div>
+        <div class="footc">
+          <p>
+            한국미술작품협회 | 주소 : 07995 서울시 양천구 목동서로 225
+            대한민국예술인센터 812호 | TEL : 02-744-8053.4 | FAX : 02-741-6240 |
+            E-MAIL : exhibition@kaa.or.kr Copyrights 2010 재단법인
+            한국미술작품협회 All Rights Reserved.
+          </p>
+        </div>
+        <dic class="footr">
+          <div class="sns">
+            <img src="facebook" alt="페이스북" />
+            <p><a href="#">facebook</a></p>
+          </div>
+          <div class="sns">
+            <img src="facebook" alt="인수타" />
+            <p><a href="#">instargram</a></p>
+          </div>
+          <div class="sns">
+            <img src="facebook" alt="카톡" />
+            <p><a href="#">kakaotalk</a></p>
+          </div>
+        </dic>
+      </div>
+    </div>
+    <div class="pop" id="pop">
+      <p>레이어 공지사항 팝업입니다.</p>
+      <img src="Contents/갤러리/gallery01.jpg" />
+      <button id="closePop">닫기</button>
+    </div>
+  </body>
+</html>
